@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS (optional, for components like modals, dropdowns, etc.) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cake Parlour</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1><img src="images\logo.png" alt="logo">The Cake Parlour</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="./index.html#home">Home</a></li>
+                
+                <li><a class="active" href="#about">About us</a></li>
+                <li class="dropdown">
+                    <a href="./menu.html" class="dropbtn">Menu</a>
+                    <div class="dropdown-content">
+                        <a href="menu.html#cupcakes">Cupcakes</a>
+                        <a href="menu.html#bentocakes">Bento Cakes</a>
+                        <a href="menu.html#customcakes">Customised Cakes</a>
+                    </div>
+                </li>
+                <li><a class="active" href="menu.html#gallery1">Gallery</a></li>
+                <li><a class="active" href="./Login.html">Login</a></li>
+                <li>
+                    <a class="active" href="cart.html">
+                        <img src="images\cart.png" alt="Cart" class="cart">
+                        <span class="quantity">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div> <!-- Close container -->
+</header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/bg1.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/bg6.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/bg3.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/bg4.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/bg5.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <!-- Add more carousel items as needed -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="homepage">
+        <div class="backgroundimg">
+            <!-- <img src="images\logo.png" alt="background"> -->
+        </div>
+        <div class="welcome">
+            <p>Step into our cozy kitchen where the <br>aroma of freshly 
+                baked treats fills the air,<br> and let us take you on a<br> 
+                journey of wholesome indulgence.<br> From classic favorites<br> to innovative creations, 
+               <br> each cake is lovingly handcrafted <br>with the finest ingredients, <br>
+                ensuring every bite is a moment of pure joy.</p><br>
+            <button class="ordernow">Order now</button>
+        </div>
+    </div>
+    <!-- /*-----Featured Cakes------*/ -->
+    <div class="features">
+        <div class="heading">
+            <h1>Exquisite Artisanal Cake Collection</h1>
+            <div class="types">
+                <div class="grid-container">
+                    <div class="grid-item">
+                      <img src="./images/f1.jpg" alt="Image 1">
+                      <div class="caption">Caption for Image 1</div>
+                      <button class="btn">Button 1</button>
+                    </div>
+                    <div class="grid-item">
+                      <img src="./images/bg.jpg" alt="Image 2">
+                      <div class="caption">Caption for Image 2</div>
+                      <button class="btn">Button 2</button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/cb1.jpg" alt="Image 2">
+                        <div class="caption">Caption for Image 2</div>
+                        <button class="btn">Button 2</button>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./images/b2.jpg" alt="Image 2">
+                        <div class="caption">Caption for Image 2</div>
+                        <button class="btn">Button 2</button>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./images/cb4.jpg" alt="Image 2">
+                        <div class="caption">Caption for Image 2</div>
+                        <button class="btn">Button 2</button>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./images/b1.jpg" alt="Image 2">
+                        <div class="caption">Caption for Image 2</div>
+                        <button class="btn">Button 2</button>
+                      </div>
+                    <!-- Add more grid items as needed -->
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="aboutus" id="about">
+        <div class="heading">
+            <h1>About us</h1>
+            <div class="welcome">
+                <p>Welcome to our cozy kitchen,<br>
+                where the aroma of freshly baked treats fills the air<br>
+                and invites you into a world of wholesome indulgence.<br>
+                Here at Cake Parlour, we are passionate about crafting<br>
+                delicious cakes that delight the senses and warm the heart.<br>
+    
+                Our journey began with a simple desire:<br>
+                to spread happiness through the joy of baking. <br>
+                From classic favorites to innovative creations,<br>
+                each cake that emerges from our ovens is lovingly handcrafted<br>
+                with the utmost care and attention to detail.
+    
+                We believe in using only the finest ingredients<br>
+                because we understand that quality is key to creating <br>
+                memorable experiences.<br>
+                Every bite of our cakes is a moment of pure joy,<br>
+                meant to be savored and shared with loved ones.
+    
+                At Cake Parlour, we strive to create not just desserts,<br>
+                but moments of blissful indulgence.<br>
+                Join us as we continue to pour our passion<br>
+                into every recipe, making each visit to our kitchen<br>
+                sa delightful journey for your taste buds and your soul.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="reviews">
+        <h4>Google Reviews</h4>
+        <p>Check out what our customers have to say about us:</p>
+        <a href="https://www.google.com/maps/place/The+Cake+Parlour/@15.3616111,75.1221971,17z/data=!4m8!3m7!1s0x3bb8d7de1fd2a381:0x2679b638abad59c6!8m2!3d15.3616111!4d75.124772!9m1!1b1!16s%2Fg%2F11tszght1v?entry=ttu" 
+        target="_blank" rel="noopener">Drop Your Review</a>
+    </div>
+
+    <div class="contact-info">
+        <h2>Contact Information</h2>
+        <ul>
+            <li><strong>Email:<input type="email" id="email" text="email" placeholder="example@example.com"></strong></li>
+            <li><strong>Phone:<input type="number" id="num" text="number" placeholder="+91"></strong></li>
+            <li><strong>Address:<input type="text" id="text" text="text" placeholder="Enter Your address"></strong></li>
+        </ul>
+    </div>
+
+    <div class="social-links">
+        <h2>Follow Us</h2>
+        <ul>
+            <li><a href="https://www.instagram.com/_the.cake.parlour_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <img src="./images/insta.jpg" alt="Instagram"> Instagram</a> </li>
+        </ul>
+    </div>
+    
+    
+    
+    
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
